@@ -1,0 +1,26 @@
+#this is small bank massage.
+name=input("enter your name:   ")
+mobilenumber=int(input("enter your mobile number:  "))
+addres=input("enter your adress:  ")
+age=input("enter your age:  ")                   
+branch=input("enter your branch name:  ")          
+branchcode=input("enter your branch code:  ")
+adharnumber=input("enter your adhar number:  ")
+pannumber=input("enter your pan number:  ")
+pincode=input("enter your pin code:  ")
+accountnumber=input("please enter your account number:  ")
+
+print("hellow dear",name,"welcome in SBI BANK.")
+print("your pincode ",pincode)
+print("your mobile number","+91",mobilenumber)
+print("dear",name,"your adress is",addres)
+print("dear",name,branchcode, "this is your branch code")
+print("and your branch located in",branch)
+print('adhar number',adharnumber, 'and pan number',pannumber, 'for verification')
+print("account number",accountnumber,'don not share account number with other for security purpose be secure.')
+print("thank you dear",name,"for opening your first account in sbi, i wish you have a grat experience with sbi.")
+confirm=input("youer filled details are correct (yes/no) ")
+if confirm == "yes":  # yes ha double quotes madha karan jya "yes" sobat apun compare karnar ahot to pn "yes" ha double quotes madha store ahe.
+    print("your details is submitted sucessfully,thank you")
+else:
+    print("please reenter the details carefully.")
